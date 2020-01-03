@@ -2,7 +2,9 @@
 JSP 웹페이지 기말 텀프로젝트
 
 목표 : JSP를 활용한 동적 웹페이지(쇼핑몰 타입) 제작
-사용언어 -> JSP, CSS, HTML, XML, Javascript, Java
+https://img.shields.io/badge/Language--JAVA-red
+https://img.shields.io/badge/Language--JavaScript-orange
+https://img.shields.io/badge/Language--SQL-green
 
 16 IT 경영 고광종
 16 IT 경영 유승택
