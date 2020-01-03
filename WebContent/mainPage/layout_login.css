@@ -1,0 +1,222 @@
+@import url(../UI/layout_banner.css);
+@import url(../UI/layout_footer.css);
+@charset "utf-8";
+body {
+	font-family: "맑은 고딕";
+	font-size: 6pt;
+	line-height: 150%;
+	background-color: #FFF;
+	margin: 0px;
+}
+#wrap {
+	width: 100%;
+	height:auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.main_boxs {
+	float: left;
+	height: 100%;
+	width: 70%;
+	margin-top: 2%;
+	margin-right: 20%;
+	margin-bottom: 2%;
+	margin-left: 10%;
+}
+.main_banner {
+	float: left;
+	height: auto%;
+	width: 14%;
+	text-align: center;
+	background-color:#FFF;
+	position:fixed;
+}
+.main_menu {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-bottom: 5%
+}
+.main_category {
+	float: left;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5%
+}
+.main_notice {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-bottom: 5%
+}
+.logo {
+	float: left;
+	height: 100%;
+	width: 100%;
+	margin-bottom: 5%
+}
+.main_page {
+	height: 100%;
+	width: 80%;
+	float: left;
+	margin-left: 20%
+}
+.main_banner .main_menu p {
+	font-size: 7pt;
+	float: left;
+	line-height: 70%;
+}
+.main_banner .main_category table {
+	width: 100%;
+	text-align: center;
+}
+.main_box .main_banner .main_notice p {
+	font-weight: bold;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #769FD2;
+	text-decoration: none;
+}
+a:active {
+	color: #769FD2;
+	text-decoration: none;
+}
+
+#wrap .main_boxs .main_page .main_footer table {
+	text-align: left;
+}
+
+.main_product {
+	float: left;
+	height: 100%;
+	width: 45%;
+	text-align: center;
+	padding-left:15%;
+	padding-right:5%;
+}
+.main_order {
+	float: left;
+	height: auto;
+	width: 35%;
+	text-align: left;
+	font-size:12px
+}
+.main_pro {
+	float: left;
+	height: 100%;
+	width: 100%;
+	color:#555;
+}
+.pro_arrow {
+	float: left;
+	height: auto;
+	width: 5%;
+	text-align: center;
+}
+.pro_image {
+	float: left;
+	height: 100%;
+	width: 80%;
+}
+.main_footer {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	float: left;
+	width: 100%;
+}
+.main_box .main_page .main_flash .main_footer table tr th {
+	text-align: left;
+}
+.main_page .main_pro .main_order #form1 p {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#wrap .main_box .main_page .main_pro .main_order #form1 #buy {
+	color: #FFF;
+	background-color: #999;
+}
+#wrap .main_box .main_page .main_pro .main_order #form1 table tr td #productColor, #productAmount {
+	width: 100%;
+}
+.pro_description {
+	float: left;
+	height: 100%;
+	width: 100%;
+	color:#555;
+	background-color:#9CF
+}#wrap .main_box .main_page .main_footer table {
+	text-align: left;
+}
+.main_box {
+	float: left;
+	height: 100%;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+	border: medium double #555;
+}
+.form_box {
+	height: auto;
+	width: 60%;
+	margin-top: 5%;
+	margin-right: 25%;
+	margin-bottom: 5%;
+	margin-left: 15%;
+	text-align: center;
+}
+input {
+	width: 96%;
+	height: auto;
+	line-height : normal;
+	font-size: 15;
+	border: 1px solid #999;
+	outline-style: none;
+	clear: both;
+	padding-top: 0.8em;
+	padding-right: 0.5em;
+	padding-bottom: 0.8em;
+	padding-left: 0.5em;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	background-color: #FFF;
+}
+
+#wrap .main_box .form_box #form1 table tr td #login {
+	width: 100%;
+	font-weight: bold;
+}
+#wrap .main_box .form_box #form1 table tr td #join {
+	width: 100%;
+	background-color: #99F;
+	font-weight: bold;
+}
+
+#wrap .main_box .form_box #form1 table tr td #logo {
+	height: auto%;
+	width: 45%;
+	
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#wrap .main_box .form_box #form1 table {
+	text-align: center;
+}

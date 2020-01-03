@@ -1,0 +1,221 @@
+@import url(../UI/layout_banner.css);
+@import url(../UI/layout_footer.css);
+@charset "utf-8";
+body {
+	font-family: "맑은 고딕";
+	font-size: 6pt;
+	line-height: 150%;
+	background-color: #FFF;
+	margin: 0px;
+}
+#wrap {
+	width: 100%;
+	height:auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.main_boxs {
+	float: left;
+	height: 100%;
+	width: 70%;
+	margin-top: 2%;
+	margin-right: 20%;
+	margin-bottom: 2%;
+	margin-left: 10%;
+}
+.main_banner {
+	float: left;
+	height: auto%;
+	width: 14%;
+	text-align: center;
+	background-color:#FFF;
+	position:fixed;
+}
+.main_menu {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-bottom: 5%
+}
+.main_category {
+	float: left;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5%
+}
+.main_notice {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-bottom: 5%
+}
+.logo {
+	float: left;
+	height: 100%;
+	width: 100%;
+	margin-bottom: 5%
+}
+.main_page {
+	height: 100%;
+	width: 80%;
+	float: left;
+	margin-left: 20%
+}
+.main_banner .main_menu p {
+	font-size: 7pt;
+	float: left;
+	line-height: 70%;
+}
+.main_banner .main_category table {
+	width: 100%;
+	text-align: center;
+}
+a:link {
+	color: #777;
+	text-decoration: none;
+}
+a:visited {
+	color: #777;
+	text-decoration: none;
+}
+a:hover {
+	color: #769FD2;
+	text-decoration: none;
+}
+a:active {
+	color: #769FD2;
+	text-decoration: none;
+}
+.main_pro {
+	float: left;
+	height: 100%;
+	width: 100%;
+	color:#777;
+}
+.main_footer {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	float: left;
+	width: 100%;
+}
+
+#wrap .main_boxs .main_page .main_footer table {
+	text-align: left;
+}
+
+.dont_touch {
+}
+
+
+.main_box {
+	float: left;
+	height: auto%;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+	border: 1px solid #999;
+}
+.form_box {
+	height: auto;
+	width: 90%;
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	text-align:center;
+}
+input {
+	width: 25%;
+	height: auto;
+	line-height : normal;
+	font-size: 15;
+	border: 1px solid #999;
+	outline-style: none;
+	clear: both;
+	padding-top: 0.8em;
+	padding-right: 0.5em;
+	padding-bottom: 0.8em;
+	padding-left: 0.5em;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	background-color: #FFF;
+}
+#wrap .main_box .form_box #form1 table {
+	margin-top : 5%;
+	margin-bottom : 5%;
+	border: medium double #555;
+}
+#wrap .main_box .form_box #form1 table tr td{
+	padding-top: 1.0em;
+	padding-right: 0.5em;
+	padding-bottom: 1.0em;
+	padding-left: 0.5em;
+	text-align:left;
+	font-size:15px;
+}
+
+select {
+	width: 25%;
+	height: auto;
+	line-height : normal;
+	font-size: 15;
+	border: 1px solid #999;
+	outline-style: none;
+	clear: both;
+	padding-top: 0.8em;
+	padding-right: 0.5em;
+	padding-bottom: 0.8em;
+	padding-left: 0.5em;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	background-color: #FFF;
+}
+.agree_box {
+	margin: 5%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	height: 200px;
+	width: 86%;
+	border: 1px solid #777;
+	line-height: 110%;
+	overflow: scroll;
+	padding: 2%;
+}
+#wrap .main_box .form_box #form1 #agreement {
+	margin: 0%;
+	padding: 0%;
+	height: auto;
+	width: auto;
+}
+#wrap .main_box .form_box #form1 #memberPw, #memberPwN, #memberPwNR{
+	text-align:left;
+	width: 70%;
+}
+#wrap .main_box .form_box #form1 #back, #submit, #reset, #check, #modG{
+	border: 1px solid #777;
+	height: auto;
+	width: 12%;
+	padding: 1%;
+	padding-right: 3%;
+	padding-left: 3%;
+	border-radius: 8%;
+}
+
+.term_box {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	height: auto;
+	width: 96%;
+	font-size: 10pt;
+	border: 1px solid #777;
+	padding: 2%;
+}
+
+#wrap .main_boxs .main_page .main_pro .main_box .form_box p1 {
+	font-size: 16px;
+	color: #555;
+	font-weight: bold;
+}

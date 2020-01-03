@@ -1,0 +1,193 @@
+@import url(../UI/layout_banner.css);
+@import url(../UI/layout_footer.css);
+@charset "utf-8";
+body {
+	font-family: "맑은 고딕";
+	font-size: 6pt;
+	line-height: 150%;
+	background-color: #FFF;
+	margin: 0px;
+}
+#wrap {
+	width: 100%;
+	height:auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.main_boxs {
+	float: left;
+	height: 100%;
+	width: 70%;
+	margin-top: 2%;
+	margin-right: 20%;
+	margin-bottom: 2%;
+	margin-left: 10%;
+}
+.main_banner {
+	float: left;
+	height: auto%;
+	width: 14%;
+	text-align: center;
+	background-color:#FFF;
+	position:fixed;
+}
+.main_menu {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-bottom: 5%
+}
+.main_category {
+	float: left;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5%
+}
+
+.logo {
+	float: left;
+	height: 100%;
+	width: 100%;
+	margin-bottom: 5%
+}
+.main_page {
+	height: 100%;
+	width: 80%;
+	float: left;
+	margin-left: 20%
+}
+.main_banner .main_menu p {
+	font-size: 7pt;
+	float: left;
+	line-height: 70%;
+}
+.main_banner .main_category table {
+	width: 100%;
+	text-align: center;
+}
+.main_box .main_banner .main_notice p {
+	font-weight: bold;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #769FD2;
+	text-decoration: none;
+}
+a:active {
+	color: #769FD2;
+	text-decoration: none;
+}
+.main_pro {
+	float: left;
+	height: 100%;
+	width: 100%;
+	color:#555;
+}
+.main_footer {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	float: left;
+	width: 100%;
+}
+
+#wrap .main_boxs .main_page .main_footer table th{
+	text-align: left;
+}
+
+.don_touch {
+}
+
+
+
+.main_box {
+	float: left;
+	height: 100%;
+	width: 80%;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	border: medium double #555;
+}
+.form_box {
+	height: 100%;
+	width: 90%;
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	font-size: 8pt;
+	text-align: center;
+}
+input {
+	width: auto;
+	height: auto;
+	font-size: 10;
+	border: none;
+	outline-style: none;
+	clear: both;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	background-color: #FFF;
+}
+select {
+	width: auto;
+	height: auto;
+	line-height : normal;
+	font-size: 15;
+	border: none;
+	outline-style: none;
+	clear: both;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	background-color: #FFF;
+}
+.sub_box {
+	height: auto;
+	width: 100%;
+	text-align:right;
+}
+#wrap .main_box .form_box #form1 .sub_box #write, #search {
+	border: 1px solid #000;
+}
+#wrap .main_box .form_box #form1 .sub_box #searchText {
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #000;
+}
+#wrap .main_box .form_box #form1 table tr td{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	padding : 0.5em;
+}
+#wrap .main_box .form_box #form1 table th{
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #000;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	padding : 0.3em;
+}
+#wrap .main_box .form_box #form1 table{
+	margin-top : 2%;
+	margin-bottom : 2%;
+	text-align : center;
+}
+#wrap .main_boxs .main_page .main_pro .main_box .form_box #form1 p1 {
+	font-size: 16px;
+	color: #555;
+	font-weight: bold;
+}
