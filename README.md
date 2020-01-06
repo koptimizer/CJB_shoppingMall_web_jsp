@@ -24,6 +24,11 @@
 ![web1](https://user-images.githubusercontent.com/29548128/71737099-11fd3380-2e96-11ea-9b63-fd8f52095872.jpg)
 <br/><br/>
 
+## 환경
+- **Tomcat v8.5**
+- **Mysql -> DB는 MySQL_create.txt 참조**
+<br/>
+
 ## 해결하지 못한 이슈
 - **Connection에 대한 핸들링 코드들을 같은 레벨에서 안해놔서 가끔 꼬이면 서버가 무한루프를 돈다... 내 불찰...^^**
 - **javamail이나 도로명주소 API들이 매끄럽게 안들어갔다... 좀 따로노는 느낌**
