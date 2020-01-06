@@ -1,0 +1,56 @@
+CREATE DATABASE `term` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+DROP TABLE IF EXISTS `term`.`board`;
+CREATE TABLE  `term`.`board` (
+  `boardId` int(10) unsigned NOT NULL auto_increment,
+  `memberId` varchar(13) NOT NULL,
+  `BoardName` varchar(20) NOT NULL,
+  `BoardContent` varchar(100) NOT NULL,
+  `BoardPicture` varchar(45) default NULL,
+  `BoardProduct` varchar(40) default NULL,
+  PRIMARY KEY  (`boardId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `term`.`flower`;
+CREATE TABLE  `term`.`flower` (
+  `flowerName` varchar(20) NOT NULL,
+  `mainPic` varchar(45) NOT NULL,
+  `price` int(10) unsigned NOT NULL,
+  `fav` int(10) unsigned default '0',
+  `pic1` varchar(45) default NULL,
+  `explain1` varchar(100) default NULL,
+  `pic2` varchar(45) default NULL,
+  `explain2` varchar(100) default NULL,
+  `pic3` varchar(45) default NULL,
+  `explain3` varchar(100) default NULL,
+  `type` varchar(45) NOT NULL,
+  PRIMARY KEY  (`flowerName`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `term`.`member`;
+CREATE TABLE  `term`.`member` (
+  `memberId` varchar(25) NOT NULL,
+  `memberPw` varchar(45) NOT NULL,
+  `memberName` varchar(45) NOT NULL,
+  `memberAdd` varchar(45) NOT NULL,
+  `memberTel` varchar(45) NOT NULL,
+  `memberEmail` varchar(45) NOT NULL,
+  PRIMARY KEY  (`memberId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `term`.`payment`;
+CREATE TABLE  `term`.`payment` (
+  `orderId` int(10) unsigned NOT NULL auto_increment,
+  `memberId` varchar(45) NOT NULL,
+  `memberName` varchar(45) NOT NULL,
+  `memberEmail` varchar(45) NOT NULL,
+  `receiveName` varchar(45) NOT NULL,
+  `receiveAddress` varchar(45) NOT NULL,
+  `receiveTel` varchar(45) NOT NULL,
+  `receiveText` varchar(45) default NULL,
+  `receiveDate` varchar(45) default NULL,
+  `flowerName` varchar(45) NOT NULL,
+  `amount` int(10) unsigned NOT NULL,
+  `price` int(10) unsigned NOT NULL,
+  PRIMARY KEY  (`orderId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
